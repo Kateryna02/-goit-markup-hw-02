@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 1440px;
     height: 2076px;
     background-color: #fff;
@@ -44,7 +44,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-   
+
     letter-spacing: 0.32px;
 }
 
@@ -58,7 +58,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    
+
     letter-spacing: 0.32px;
 }
 
@@ -71,6 +71,52 @@ body {
     border-radius: 4px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--CLOUD, #F4F4FD);
+}
+
+.section-title-one {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+.section-title {
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    background: var(--NAVY-BLUE, #2E2F42);
+
+
+}
+
+.button-blue {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.butten-white {
+    color: var(--WHITE, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
 }
 
 .button {
@@ -114,8 +160,33 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-  
+
     letter-spacing: 0.32px;
+
+}
+.section-3{
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.logo-white{
+ 
+color: var(--CLOUD, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+
+
 }
 
 .footer {

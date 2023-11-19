@@ -12,7 +12,8 @@ body {
 
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
-   
+    color: #434455;
+
 }
 
 .link {
@@ -39,15 +40,22 @@ body {
     text-transform: uppercase;
 }
 
-.list-item {
-    color:#2e2f42;
+.list-item-one {
+    color: #2e2f42;
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.5;
 
+}
 
+.list-item-one:hover {
+    color: #404bbf;
+}
+
+.list-item-one:focus {
+    color: #404bbf;
 }
 
 .link:hover {
@@ -84,7 +92,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+.address-mail:hover{
+   color: #404bbf ;
+}
+.address-mail:focus{
+    color: #404bbf;
+}
 .section-title-one {
     color: #FFF;
     text-align: center;
@@ -98,12 +111,12 @@ body {
 
 .section-title {
     background: #2E2F42;
-    border: 1px solid  #E7E9FC;
+    border: 1px solid #E7E9FC;
 }
 
 .button-blue {
-    font-family: 'Raleway', sans-serif;
-    background:#4D5AE5;
+    font-family: 'Roboto', sans-serif;
+    background: #4D5AE5;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -148,11 +161,11 @@ body {
 
 .title-list {
     border: 1px solid #E7E9FC;
-    background: var(--WHITE, #FFF);
+    background: #FFF;
 }
 
 .title-projects {
-    color:  #2E2F42;
+    color: #2E2F42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -176,7 +189,7 @@ body {
 }
 
 .section {
-    color:  #2E2F42;
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -192,8 +205,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 0px 0px 4px 4px;
-    background:  #FFF;
+    background: #FFF;
 
 }
 
@@ -214,7 +226,7 @@ body {
 }
 
 .footer-title {
-    color:  #F4F4FD;
+    color: #F4F4FD;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

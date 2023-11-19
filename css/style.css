@@ -12,7 +12,7 @@ body {
 
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
-    color: var(--color-secondary-text);
+   
 }
 
 .link {
@@ -21,7 +21,7 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    color: var(--IRIS, #4d5ae5);
+    color: #4d5ae5;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -31,7 +31,7 @@ body {
 }
 
 .logo-black {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-size: 18px;
     line-height: 1.17;
     /* 116.667% */
@@ -39,8 +39,8 @@ body {
     text-transform: uppercase;
 }
 
-.list-one {
-    color: var(--NAVY-BLUE, #2e2f42);
+.list-item {
+    color:#2e2f42;
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
@@ -68,7 +68,7 @@ body {
 }
 
 .address {
-    color: var(--SLATE, #434455);
+    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -78,7 +78,7 @@ body {
 }
 
 .address-mail {
-    color: var(--SLATE, #434455);
+    color: #434455;
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
@@ -86,7 +86,7 @@ body {
 }
 
 .section-title-one {
-    color: var(--WHITE, #FFF);
+    color: #FFF;
     text-align: center;
     font-size: 56px;
     font-style: normal;
@@ -97,13 +97,13 @@ body {
 }
 
 .section-title {
-    background: var(--NAVY-BLUE, #2E2F42);
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: #2E2F42;
+    border: 1px solid  #E7E9FC;
 }
 
 .button-blue {
     font-family: 'Raleway', sans-serif;
-    background: var(--IRIS, #4D5AE5);
+    background:#4D5AE5;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -124,7 +124,7 @@ body {
 
 .button-port {
     font-family: 'Roboto', sans-serif;
-    color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5;
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -147,12 +147,12 @@ body {
 }
 
 .title-list {
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border: 1px solid #E7E9FC;
     background: var(--WHITE, #FFF);
 }
 
 .title-projects {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color:  #2E2F42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -162,7 +162,7 @@ body {
 }
 
 .title-gap {
-    color: var(--SLATE, #434455);
+    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -176,7 +176,7 @@ body {
 }
 
 .section {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color:  #2E2F42;
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -193,13 +193,13 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
+    background:  #FFF;
 
 }
 
 .logo-white {
     font-family: 'Roboto', sans-serif;
-    color: var(--CLOUD, #F4F4FD);
+    color: #F4F4FD;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -210,11 +210,11 @@ body {
 }
 
 .footer {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2E2F42;
 }
 
 .footer-title {
-    color: var(--CLOUD, #F4F4FD);
+    color:  #F4F4FD;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

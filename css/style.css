@@ -11,8 +11,8 @@
 body {
 
     font-family: 'Roboto', sans-serif;
-    background-color:var(--primary-bg-color);
-
+    background-color: var(--primary-bg-color);
+    color: #434455;
 }
 
 
@@ -50,7 +50,7 @@ body {
 }
 
 .list-item-one:hover {
-    color:var(--accent-pressed-state);
+    color: var(--accent-pressed-state);
 }
 
 .list-item-one:focus {
@@ -90,12 +90,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.address-mail:hover{
-   color: var(--accent-pressed-state) ;
-}
-.address-mail:focus{
+
+.address-mail:hover {
     color: var(--accent-pressed-state);
 }
+
+.address-mail:focus {
+    color: var(--accent-pressed-state);
+}
+
 .section-title-one {
     color: var(--primary-bg-color);
     text-align: center;
@@ -108,8 +111,9 @@ body {
 
 .section-title {
     background: var(--color-main-text);
-   
+
 }
+
 /* button */
 .button-blue {
     font-family: 'Roboto', sans-serif;
@@ -128,14 +132,14 @@ body {
     background-color: var(--accent-pressed-state);
 }
 
-.button-blue:focus{
+.button-blue:focus {
     color: var(--primary-bg-color);
     background-color: var(--accent-pressed-state);
 }
 
 .button-port {
     font-family: 'Roboto', sans-serif;
-    color:  var(--accent);
+    color: var(--accent);
     text-align: center;
     font-size: 16px;
     font-style: normal;

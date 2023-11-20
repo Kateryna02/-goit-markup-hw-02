@@ -113,7 +113,7 @@ body {
     background: #2E2F42;
     border: 1px solid #E7E9FC;
 }
-
+/* button */
 .button-blue {
     font-family: 'Roboto', sans-serif;
     background: #4D5AE5;
@@ -121,7 +121,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -131,7 +130,8 @@ body {
     background-color: #404BBF;
 }
 
-.butten-blue:focus {
+.button-blue:focus{
+    color: #FFF;
     background-color: #404BBF;
 }
 
@@ -143,18 +143,17 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.04em;
     background-color: #F4F4FD;
     cursor: pointer;
 }
 
-.button:hover {
+.button-port:hover {
     color: #ffffff;
     background-color: #404BBF;
 }
 
-.button:focus {
+.button-port:focus {
     color: #ffffff;
     background-color: #404BBF;
 }

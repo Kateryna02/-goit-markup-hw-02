@@ -127,6 +127,7 @@ body {
 
 
 .button-blue:hover {
+    color: #FFF;
     background-color: #404BBF;
 }
 
